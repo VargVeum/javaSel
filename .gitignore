@@ -3,7 +3,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 !**/src/main/java/helpers
-src/main/java/helpers
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -19,3 +18,4 @@ src/main/java/helpers
 
 ### Mac OS ###
 .DS_Store
+/src/main/java/helpers/
