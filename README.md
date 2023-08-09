@@ -1,1 +1,1 @@
-# javaSel
+# javaSelenide
