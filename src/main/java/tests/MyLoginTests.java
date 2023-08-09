@@ -8,6 +8,11 @@ import helpers.Credentials;
 public class MyLoginTests extends BaseHelper{
 
     @Test
+    public void loginWithValidCredentials() {
+        loginViaEmail();
+    }
+
+    @Test
     public void loginWithInvalidPassword() {
         LoginPage loginPage = new LoginPage();
         loginPage.openPage(UrlsData.LOGIN_URL)
@@ -33,10 +38,5 @@ public class MyLoginTests extends BaseHelper{
                 .fillEmailInput("")
                 .fillPasswordInput("")
                 .checkSubmitButtonIsDisabled();
-    }
-
-    @Test
-    public void loginWithValidCredentials() {
-        loginViaEmail();
     }
 }
