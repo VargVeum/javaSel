@@ -3,8 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 !**/src/main/java/helpers
-reports
-helpers
+src/main/java/helpers
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
